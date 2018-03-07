@@ -1,0 +1,176 @@
+Funkjce systemowe mają większy czas użytkownika
+Funkcje systemowe szybsze w sortowaniu
+Funkcje biblioteczne szybsze w mieszaniu
+
+
+
+
+SORT
+====
+
+SYS
+====
+
+RECORDS 5000
+
+ROZMIAR 4
+     user_t [s]   system_t [s]
+       2.140000       7.740000
+
+ROZMIAR 512
+     user_t [s]   system_t [s]
+       3.040000       9.720000
+
+ROZMIAR 4096
+     user_t [s]   system_t [s]
+       3.360000      26.820000
+
+ROZMIAR 8192
+     user_t [s]   system_t [s]
+       4.650000      45.100000
+
+
+RECORDS 2500
+
+ROZMIAR 4   
+     user_t [s]   system_t [s]
+       0.510000       1.960000
+
+ROZMIAR 512
+     user_t [s]   system_t [s]
+       0.770000       2.360000    
+
+ROZMIAR 4096
+     user_t [s]   system_t [s]
+       0.850000       6.470000
+
+ROZMIAR 8192     
+     user_t [s]   system_t [s]
+       1.040000      12.240000
+
+
+LIB
+====
+
+RECORDS 5000
+
+ROZMIAR 4   
+     user_t [s]   system_t [s]
+       1.050000      16.540000  
+
+ROZMIAR 512
+     user_t [s]   system_t [s]
+       1.180000      17.740000     
+
+ROZMIAR 4096
+     user_t [s]   system_t [s]
+       1.260000      32.190000
+
+ROZMIAR 8192
+     user_t [s]   system_t [s]
+       1.310000      57.140000
+
+
+RECORDS 2500
+
+ROZMIAR 4   
+     user_t [s]   system_t [s]
+       0.300000       4.150000 
+
+ROZMIAR 512
+     user_t [s]   system_t [s]
+       0.260000       4.32000   
+
+ROZMIAR 4096
+     user_t [s]   system_t [s]
+       0.310000       7.980000
+
+ROZMIAR 8192     
+     user_t [s]   system_t [s]
+       0.360000      14.150000
+
+
+
+SHUFFLE
+====
+
+SYS
+====
+
+RECORDS 10000
+
+ROZMIAR 4   
+     user_t [s]   system_t [s]
+       4.580000      27.160000 
+
+ROZMIAR 512
+     user_t [s]   system_t [s]
+       5.360000      31.060000
+
+ROZMIAR 4096
+     user_t [s]   system_t [s]
+       4.440000      37.690000
+
+ROZMIAR 8192     
+     user_t [s]   system_t [s]
+       4.630000      68.160000
+
+
+RECORDS 5000
+
+ROZMIAR 4   
+     user_t [s]   system_t [s]
+       2.310000      13.280000
+
+ROZMIAR 512
+     user_t [s]   system_t [s]
+       2.720000      14.750000
+
+ROZMIAR 4096
+     user_t [s]   system_t [s]
+       2.140000      18.540000
+
+ROZMIAR 8192     
+     user_t [s]   system_t [s]
+       2.160000      33.840000
+
+LIB
+====
+RECORDS 10000
+
+ROZMIAR 4   
+     user_t [s]   system_t [s]
+       1.590000      21.960000
+
+ROZMIAR 512
+     user_t [s]   system_t [s]
+       1.900000      28.350000  
+
+ROZMIAR 4096
+     user_t [s]   system_t [s]
+       1.740000      38.250000
+
+
+ROZMIAR 8192     
+     user_t [s]   system_t [s]
+       1.760000      69.460000
+
+
+RECORDS 5000
+
+ROZMIAR 4   
+     user_t [s]   system_t [s]
+       0.790000      10.930000
+
+ROZMIAR 512
+     user_t [s]   system_t [s]
+       0.810000      11.510000
+
+ROZMIAR 4096
+     user_t [s]   system_t [s]
+       0.710000      18.930000
+
+ROZMIAR 8192     
+     user_t [s]   system_t [s]
+       0.900000      34.750000
+

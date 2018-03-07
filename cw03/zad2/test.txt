@@ -1,0 +1,3 @@
+./test_cpu_time.run
+./test_cpu_time.run
+./test_memory.run

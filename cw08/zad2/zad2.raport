@@ -1,0 +1,54 @@
+Zad2_1:
+	SIGUSR1, SIGTERM, SIGKILL
+	-  Wszystkie wątki zostają przerwane.
+	SIGSTOP
+	-  Wszystkie wątki zostają zatrzymane.
+
+Zad2_2:
+Ustawienie blokowanie przed stworzeniem wątków.
+	SIGUSR1, SIGTERM
+	-  Wszystkie wątki pracują dalej.
+	SIGKILL
+	-  Wszystkie wątki zostają przerwane.
+	SIGSTOP
+	-  Wszystkie wątki zostają zatrzymane.
+
+Ustawienie blokowanie po stworzeniem wątków.
+	SIGUSR1, SIGTERM, SIGKILL
+	- Wszystkie wątki zostają przerwane.
+	SIGSTOP
+	- Wszystkie wątki zostają zatrzymane.
+
+Zad2_3:
+Wysłane sygnały do procesu głównego 
+	SIGUSR1, SIGTERM
+	- Wątek główny odbiera sygnał. Wszystkie wątki pracują dalej. 
+ 
+	SIGKILL
+	- Wszystkie zostają przerwane.
+	SIGSTOP
+	- Wszystkie wątki zostają zatrzymane.
+
+Zad2_4:
+	SIGUSR1, SIGTERM
+	- Wszystkie wątki pracują dalej.  
+
+	SIGKILL
+	- Wszystkie zostają przerwane.
+	SIGSTOP
+	- Wszystkie wątki zostają zatrzymane.
+
+Zad2_5:
+	SIGUSR1, SIGTERM
+	- Wątek, do którego został wysłany sygnał odbiera sygnał przez nowy handler
+
+	SIGKILL
+	- Wszystkie wątki zostają przerwane.
+	SIGSTOP
+	- Wszystkie wątki zostają zatrzymane.
+
+Zad2b:
+	Floating point exception (core dumped) (SIGFPE), wszystkie wątki zostają przerwane.
+
+System: Ubuntu 17.04
+Jądro: x86_64 Linux 4.10.0-20-generics

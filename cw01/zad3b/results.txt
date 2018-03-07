@@ -1,0 +1,11 @@
+-O
+Wykonywane są podstawowe optymalizacje, które nie powodują przesadnego wydłużenia czasu kompilacji.
+-O2
+Wykonywane są optymalizacje, które nie powodują nadmiernego wzrostu rozmiaru programu kosztem wydajności, bądź odwrotnie.
+-O3
+Bardziej intensywne optymalizacje, mogące pociągać za sobą wzrost rozmiaru programu (rozwijanie funkcji itp).
+-Os
+Optymalizacja pod względem wielkości programu wynikowego.
+
+Możemy zauważyć minimalne skrócenie czasów wykonywania funkcji programu wraz ze zmianą O->O2->O3
+Różnicy między rodzajami linkowania nie da się określić, za krótki czas pomiarów
